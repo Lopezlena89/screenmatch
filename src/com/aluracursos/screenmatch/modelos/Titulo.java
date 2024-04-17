@@ -1,7 +1,6 @@
 package com.aluracursos.screenmatch.modelos;
 
 public class Titulo {
-
     private String nombre;
     private int fechaDeLanzamiento;
     private int duracionEnMinutos;
@@ -10,6 +9,11 @@ public class Titulo {
     private double sumaDeLasEvaluaciones;
 
     private int totalDeLasEvaluaciones;
+
+    public Titulo(String nombre, int fechaDeLanzamiento) {
+        this.nombre = nombre;
+        this.fechaDeLanzamiento = fechaDeLanzamiento;
+    }
 
     public String getNombre() {
         return nombre;

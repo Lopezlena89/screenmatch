@@ -9,9 +9,9 @@ import java.util.ArrayList;
 public class Principal {
 
     public static void main(String[] args) {
-        Pelicula miPelicula = new Pelicula();
-        miPelicula.setNombre("Encanto");
-        miPelicula.setFechaDeLanzamiento(2021);
+        Pelicula miPelicula = new Pelicula("Encanto",2021);
+
+
         miPelicula.setDuracionEnMinutos(120);
         miPelicula.setIncluidoEnElPlan(true);
 
@@ -24,18 +24,17 @@ public class Principal {
         System.out.println(miPelicula.getTotalDeLasEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
 
-        Serie casaDragon = new Serie();
-        casaDragon.setNombre("La casa del dragon");
-        casaDragon.setFechaDeLanzamiento(2022);
+        Serie casaDragon = new Serie("La casa del dragon",2022);
+
         casaDragon.setTemporadas(1);
         casaDragon.setMinutosPorEpisodio(50);
         casaDragon.setEpisodiosPorTemporada(10);
         casaDragon.nuestraFichaTecnica();
         System.out.println(casaDragon.getDuracionEnMinutos());
 
-        Pelicula otraPelicula = new Pelicula();
-        otraPelicula.setNombre("Matrix");
-        otraPelicula.setFechaDeLanzamiento(1999);
+        Pelicula otraPelicula = new Pelicula("Matrix",1999);
+
+
         otraPelicula.setDuracionEnMinutos(180);
 
         CalculadoraDeTiempo calculadora = new CalculadoraDeTiempo();
@@ -55,10 +54,10 @@ public class Principal {
         episodio.setTotalVisualizaciones(50);
         filtroRecomendacion.filtra(episodio);
 
-        var peliculaDeBruno = new Pelicula();
-        peliculaDeBruno.setNombre("El señor e los anillos");
+        var peliculaDeBruno = new Pelicula("El señor e los anillos",2001);
+
         peliculaDeBruno.setDuracionEnMinutos(180);
-        peliculaDeBruno.setFechaDeLanzamiento(2001);
+
 
 
         ArrayList<Pelicula> listaDePeliculas = new ArrayList<>();
@@ -68,10 +67,11 @@ public class Principal {
 
         System.out.println("Tamaño de la lista: " + listaDePeliculas.size());
         System.out.println("La primera pelicula es: " + listaDePeliculas.get(0).getNombre());
-
         System.out.println(listaDePeliculas.toString());
-
         System.out.println("toString de la pelicula: " + listaDePeliculas.get(0).toString());
+
+
+
 
 
 
