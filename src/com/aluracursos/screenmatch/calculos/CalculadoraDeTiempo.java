@@ -6,7 +6,7 @@ import com.aluracursos.screenmatch.modelos.Titulo;
 
 public class CalculadoraDeTiempo {
 
-        private int tiempoTotal;
+    private int tiempoTotal;
 
     public int getTiempoTotal() {
         return tiempoTotal;

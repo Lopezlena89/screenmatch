@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="600e2444-a23b-4ef6-99c0-62d156a345fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/calculos/Clasificacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/calculos/FiltroRecomendacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Episodio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/calculos/CalculadoraDeTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/calculos/CalculadoraDeTiempo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,13 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
