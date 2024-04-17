@@ -14,8 +14,13 @@ public class Pelicula extends Titulo implements Clasificacion {
         this.director = director;
     }
 
-    @java.lang.Override
+    @Override
     public int getClasificacion() {
         return (int) (calculaMedia() / 2);
+    }
+
+    @Override
+    public String toString() {
+        return "Pelicula: " + this.getNombre() + " (" + this.getFechaDeLanzamiento() + ")" ;
     }
 }
